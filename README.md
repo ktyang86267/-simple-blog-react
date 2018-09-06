@@ -1,7 +1,7 @@
 # React practice - simple blog
 
 ### Make a simple blog demo using react
-![](./image/index.png)
+![](./image/image.png)
 #### What I use
 -   React
 -   Redux
