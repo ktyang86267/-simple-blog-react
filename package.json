@@ -1,0 +1,45 @@
+{
+    "name": "reactroutersimpleblog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": " --mode development",
+        "build": "--mode production",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "lodash": "^4.17.10",
+        "prop-types": "^15.6.2",
+        "react": "^16.4.2",
+        "react-dom": "^16.4.2",
+        "react-redux": "^5.0.7",
+        "react-router-dom": "^4.2.2",
+        "redux": "^4.0.0",
+        "redux-form": "^6.6.3",
+        "redux-promise": "^0.6.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.0.0",
+        "@babel/plugin-proposal-class-properties": "^7.0.0",
+        "@babel/preset-env": "^7.0.0",
+        "@babel/preset-react": "^7.0.0",
+        "babel-eslint": "^9.0.0",
+        "babel-loader": "^8.0.0",
+        "css-loader": "^1.0.0",
+        "eslint": "^5.4.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jsx-a11y": "^6.1.1",
+        "eslint-plugin-react": "^7.11.1",
+        "html-webpack-plugin": "^3.2.0",
+        "style-loader": "^0.23.0",
+        "webpack": "^4.17.1",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^3.1.6"
+    }
+}

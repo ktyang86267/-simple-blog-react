@@ -1,0 +1,76 @@
+form a {
+    margin-left: 10px;
+}
+
+.proj-container {
+    margin-top: 4%;
+}
+
+.proj-post-show h3 {
+    margin: 2% 0;
+}
+
+.proj-post-show h5 {
+    margin-bottom: 2%;
+}
+
+.list-group {
+    margin-top: 2%;
+}
+
+.list-group-item {
+    border: 1px solid #c0c0c0;
+    -webkit-box-shadow: 3px 3px 5px #c0c0c0;
+    -moz-box-shadow: 3px 3px 5px #c0c0c0;
+    box-shadow: 3px 3px 5px #c0c0c0;
+    border-left: 25px solid #66cdaa;
+    margin-bottom: 3%;
+    transition: all 0.4s;
+}
+
+.list-group-item:hover {
+    transform: scale(1.02);
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+.form-group {
+    border-left: 5px solid #008b8b;
+    padding-left: 15px;
+    margin: 50px;
+}
+
+.form-group label {
+    font-style: italic;
+    color: #008b8b;
+}
+
+.form-group input {
+    width: 65%;
+}
+
+.form-inside {
+    border-width: 0px;
+    border: none;
+    border-bottom: 1px dotted black;
+}
+
+.content input {
+    width: 40%;
+}
+
+.btn-new {
+    padding-left: 10%;
+}
+
+.btn-new .newPostBtn {
+    margin-right: 10%;
+}
